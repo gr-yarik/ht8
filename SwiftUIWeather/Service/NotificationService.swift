@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension Notification.Name {
+     static let didAddCity = Notification.Name("didAddCity")
+}
+
+

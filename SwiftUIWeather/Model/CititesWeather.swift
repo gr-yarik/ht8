@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CititesWeather {
+struct CititesWeather: Decodable, Hashable {
     let temperature: Double
     var temperatureString: String {
         return "\(Int(round(temperature))) °C"
